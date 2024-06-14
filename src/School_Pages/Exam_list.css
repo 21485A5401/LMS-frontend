@@ -1,0 +1,40 @@
+.Exam-list-container{
+    /* margin: 0px 75px 0px 12px; */
+    width: 100%;
+}
+
+.Exam-list-table{
+    width:90%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 50px;
+    /* color: #4F4F4F; */
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: #63a2d5;
+}
+
+.Exam-list-tbody tr:nth-child(even){background-color: #EBF6FF;}
+.Exam-list-tbody tr:nth-child(odd){background-color: #ffffff;}
+
+.Exam-list-thead{
+    width: 100%;
+    /* height: 50px; */
+    & th{
+        text-align: start;
+        padding: 10px 10px;
+        font-weight: 700;
+        font-size: 14px;
+        color: white;
+    }
+}
+
+.Exam-list-tbody{
+    height: 50px;
+    & td{
+        padding: 10px 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}

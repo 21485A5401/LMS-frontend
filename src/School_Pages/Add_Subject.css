@@ -1,0 +1,96 @@
+.styled-input input{
+    Width:198px;
+    Height:44px;
+    background-color:#FFFAFA;
+    border-radius:10px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    padding-left:12px;
+}
+
+.styled-input textarea{
+    Width:198px;
+    Height:44px;
+    background-color:#FFFAFA;
+    border-radius:10px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    padding-left:12px;
+}
+
+.styled-input label{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.add-subject-container{
+    margin: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-subject-container-top-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#add-subject-container-top-left-title input{
+    width: 405px;
+    height: 38px;
+}
+
+#add-subject-container-top-left-description textarea{
+    width: 405px;
+    height: 145px;
+}
+
+.add-subject-base-styled-div{
+    background-color:#FFFAFA;
+    height: 57px;
+    width: 640px;
+    border-radius:10px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.add-subject-base-styled-div p{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.36);
+}
+
+.add-subject-base-styled-div-input{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 30px;
+}
+
+.add-subject-base-styled-div-input label{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.73);
+}
+
+.add-subject-base-styled-div-input input{
+    height: 38px;
+    width: 455px;
+}
+
+.Chapter-add{
+    height: 48px;
+    width: 151px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(249, 9, 9, 0.5);
+}
+
+.Chapter-add p{
+    margin-left: 20px;
+    color: #C13D3D;
+    font-size: 12px;
+    font-weight: 700;
+}
